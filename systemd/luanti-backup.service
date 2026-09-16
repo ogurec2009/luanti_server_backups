@@ -1,0 +1,6 @@
+[Unit]
+Description=Luanti daily backup
+
+[Service]
+Type=oneshot
+ExecStart=/home/user/scripts/luanti_backup.sh
